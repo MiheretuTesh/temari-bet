@@ -663,16 +663,16 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Why Us
+# INFO
 --------------------------------------------------------------*/
 .why-us .content {
-  padding: 60px 100px 0 100px;
+  padding: 40px 80px 0 80px;
 }
 
 .why-us .content h3 {
   font-weight: 400;
   font-size: 34px;
-  color: #37517e;
+  color: #000000;
 }
 
 .why-us .content h4 {
@@ -683,7 +683,7 @@ section {
 
 .why-us .content p {
   font-size: 15px;
-  color: #848484;
+  color: #534f4f;
 }
 
 .why-us .img {
@@ -693,7 +693,7 @@ section {
 }
 
 .why-us .accordion-list {
-  padding: 0 100px 60px 100px;
+  padding: 0px 80px 0 80px;
 }
 
 .why-us .accordion-list ul {
@@ -723,7 +723,7 @@ section {
 }
 
 .why-us .accordion-list span {
-  color: #47b2e4;
+  color: #133f53;
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
@@ -749,9 +749,10 @@ section {
   color: #343a40;
 }
 
-.why-us .accordion-list a.collapsed:hover {
-  color: #47b2e4;
+.why-us .accordion-list a.collapsed:hover, a.collapsed:focus {
+  color: #0674ac !important;
 }
+
 
 .why-us .accordion-list a.collapsed .icon-show {
   display: inline-block;
@@ -1839,5 +1840,13 @@ section {
   }
   #footer .credits {
     padding-top: 4px;
+  }
+}
+
+/* Editing */
+
+@media(max-width: 1000px){
+  .d-col-none{
+    display: none !important;
   }
 }
